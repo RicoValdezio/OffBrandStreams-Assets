@@ -7,7 +7,7 @@
 			"Name": "Angle X"
 		},
 		{
-			"Id": "ParamAngleY",
+			"Id": "Param",
 			"GroupId": "",
 			"Name": "Angle Y"
 		},
@@ -37,9 +37,9 @@
 			"Name": "Eyeball Y"
 		},
 		{
-			"Id": "ParamBrowLY",
+			"Id": "ParamBrowLX",
 			"GroupId": "",
-			"Name": "BrowL Y"
+			"Name": "BrowL X"
 		},
 		{
 			"Id": "ParamBrowLAngle",
@@ -47,9 +47,9 @@
 			"Name": "BrowL Angle"
 		},
 		{
-			"Id": "ParamBrowRY",
+			"Id": "ParamBrowRX",
 			"GroupId": "",
-			"Name": "BrowR Y"
+			"Name": "BrowR X"
 		},
 		{
 			"Id": "ParamBrowRAngle",
@@ -84,7 +84,12 @@
 		{
 			"Id": "ParamBreath",
 			"GroupId": "",
-			"Name": "Breath"
+			"Name": "BurningLoop"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "Door"
 		}
 	],
 	"ParameterGroups": [],
@@ -94,61 +99,69 @@
 			"Name": "Head"
 		},
 		{
-			"Id": "Body",
-			"Name": "Body"
-		},
-		{
-			"Id": "Arms",
-			"Name": "Arms"
+			"Id": "Torso",
+			"Name": "Torso"
 		},
 		{
 			"Id": "Face",
 			"Name": "Face"
 		},
 		{
-			"Id": "H_Full",
-			"Name": "OldHead"
+			"Id": "Head_Animation",
+			"Name": "Head_Animation"
+		},
+		{
+			"Id": "Torso_Moving",
+			"Name": "Torso_Moving"
+		},
+		{
+			"Id": "Arms",
+			"Name": "Arms"
+		},
+		{
+			"Id": "EyesComp",
+			"Name": "EyesComp"
 		},
 		{
 			"Id": "Mouth",
 			"Name": "Mouth"
 		},
 		{
-			"Id": "Part",
-			"Name": "Eyes"
+			"Id": "Torso_DoorOpen",
+			"Name": "Torso_DoorOpen"
 		},
 		{
-			"Id": "Eyebrows",
-			"Name": "Eyebrows"
+			"Id": "Torso_DoorClosed",
+			"Name": "Torso_DoorClosed"
 		},
 		{
-			"Id": "EyeCompound",
-			"Name": "EyeCompound"
+			"Id": "Torso_Fire",
+			"Name": "Torso_Fire"
 		},
 		{
 			"Id": "EyeBrows",
 			"Name": "EyeBrows"
 		},
 		{
-			"Id": "Part3",
-			"Name": "LeftEye S70%"
-		},
-		{
-			"Id": "Part2",
-			"Name": "RightEye S70%"
+			"Id": "Eyes",
+			"Name": "Eyes"
 		}
 	],
 	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"Param"
+		],
 		[
 			"ParamEyeBallX",
 			"ParamEyeBallY"
 		],
 		[
-			"ParamBrowLY",
+			"ParamBrowLX",
 			"ParamBrowLAngle"
 		],
 		[
-			"ParamBrowRY",
+			"ParamBrowRX",
 			"ParamBrowRAngle"
 		],
 		[
